@@ -22,30 +22,20 @@ dependencies:
   google_maps_flutter_platform_interface:
     git:
       url: https://github.com/rubenCodeforges/plugins_flutter
-      ref: f4d5c86de5170ea83492e259021b8189a2245ba6
+      ref: feature/google-maps-heatmap
       path: packages/google_maps_flutter/google_maps_flutter_platform_interface
   google_maps_flutter_ios:
     git:
       url: https://github.com/rubenCodeforges/plugins_flutter
-      ref: f4d5c86de5170ea83492e259021b8189a2245ba6
+      ref: feature/google-maps-heatmap
       path: packages/google_maps_flutter/google_maps_flutter_ios
   google_maps_flutter_android:
     git:
       url: https://github.com/rubenCodeforges/plugins_flutter
-      ref: f4d5c86de5170ea83492e259021b8189a2245ba6
+      ref: feature/google-maps-heatmap
       path: packages/google_maps_flutter/google_maps_flutter_android
 dev_dependencies:
   flutter_test:
     sdk: flutter
   plugin_platform_interface: ^2.0.0
   stream_transform: ^2.0.0
-
-
-# FOR TESTING ONLY. DO NOT MERGE.
-dependency_overrides:
-  google_maps_flutter_android:
-    path: ../google_maps_flutter_android
-  google_maps_flutter_ios:
-    path: ../google_maps_flutter_ios
-  google_maps_flutter_platform_interface:
-    path: ../google_maps_flutter_platform_interface
