@@ -22,7 +22,7 @@ dependencies:
   google_maps_flutter_platform_interface:
     git:
       url: https://github.com/rubenCodeforges/plugins_flutter
-      ref: f4d5c86de5170ea83492e259021b8189a2245ba6
+      ref: feature/google-maps-heatmap
       path: packages/google_maps_flutter/google_maps_flutter_platform_interface
   stream_transform: ^2.0.0
 
